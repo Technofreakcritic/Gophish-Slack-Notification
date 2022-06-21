@@ -1,10 +1,7 @@
-from email import message
 import requests
-import csv
 from distutils.command.config import config
 from gophish import Gophish
 from gophish.models import *
-import pandas as pd
 import random
 import datetime
 
