@@ -5,8 +5,6 @@ from gophish.models import *
 import random
 import datetime
 
-
-
 # GoPhish Config
 api_key = '<GOPHISH API KEY>'
 api = Gophish(api_key,host='<GOPHISH URL>',verify=True)
