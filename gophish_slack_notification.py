@@ -9,6 +9,7 @@ import datetime
 api_key = '<GOPHISH API KEY>'
 api = Gophish(api_key,host='<GOPHISH URL>',verify=True)
 
+# Campaign ID has to be rotated
 summary = api.campaigns.summary(campaign_id=397)
 summary_breakdown = summary.stats.as_dict()
 
